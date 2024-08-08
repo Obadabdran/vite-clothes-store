@@ -46,7 +46,7 @@ const Feature = () => {
     <div className='mt-14  '>
         <h1 className='flex justify-center text-xl md:text-3xl font-bodoni font-semibold  text-emerald-900 '>FEATUERED PRODUCTS</h1>
        <div className='flex justify-center mt-8'> <button className='border border-black px-4 py-2 text-sm text-emerald-900 '>SHOP ALL PRODUCTS</button></div>
-     <div className='flex flex-row justify-center flex-wrap px-14   mt-4 '>
+     <div className='flex flex-row justify-center flex-wrap px-10   mt-4 '>
      {features.map((f)=>(
         <FeatureCard image={f.image} title={f.title}/>
      ))}
