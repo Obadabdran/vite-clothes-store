@@ -15,7 +15,7 @@ const Mylist = () => {
     <div className=" flex flex-col md:flex-row items-center md:items-start md:justify-center ">
       <div className="  flex flex-col  mb-12 w-[300px] md:w-[300px] mt-12">
         <h2 className=" font-roboto text-pink-600">"Our products are worth every penny. Don't worry about the price—focus on the quality that truly matters."</h2>
-        <h1 className="font-bold font-garmond text-gray-700 mt-6" >TOTAL: ${total}</h1>
+        <h1 className="font-bold font-garmond text-gray-700 mt-6" >TOTAL: ${total}gi</h1>
         <button onClick={()=>{dispatch(removeall())}} className="border  text-emerald-900 text-lg md:text-xl font-medium font-cinzel p-1  mt-4  ">Clear All</button>
       </div>
       <div>
