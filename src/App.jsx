@@ -15,16 +15,16 @@ function App() {
     <Header/>
     <Container>
       <Routes>
-          <Route path="/" element={<Home/>}/> 
-          <Route path="/jeans" element={<Jeans/>}/> 
-          <Route path="/mylist" element={<Mylist/>}/>
-          <Route path="/tshirts" element={<Tshirts/>}/>
-          <Route path="/shoeses" element={<Shoeses/>}/>
-          <Route path="/hats" element={<Hats/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/contact" element={<Contactus/>} />  
-          <Route path="/create" element={<CreateAccount/>} />  
-          <Route path="/login" element={<Login/>} />  
+          <Route path="/vite-clothes-store/" element={<Home/>}/> 
+          <Route path="/vite-clothes-store/jeans" element={<Jeans/>}/> 
+          <Route path="/vite-clothes-store/mylist" element={<Mylist/>}/>
+          <Route path="/vite-clothes-store/tshirts" element={<Tshirts/>}/>
+          <Route path="/vite-clothes-store/shoeses" element={<Shoeses/>}/>
+          <Route path="/vite-clothes-store/hats" element={<Hats/>}/>
+          <Route path="/vite-clothes-store/about" element={<About/>}/>
+          <Route path="/vite-clothes-store/contact" element={<Contactus/>} />  
+          <Route path="/vite-clothes-store/create" element={<CreateAccount/>} />  
+          <Route path="/vite-clothes-store/login" element={<Login/>} />  
       </Routes>      
     </Container>
     <Footer/>

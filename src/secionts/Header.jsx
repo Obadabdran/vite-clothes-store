@@ -14,9 +14,9 @@ const Header = () => {
     <div>
       <nav className="flex justify-between px-6 md:px-12 bg-neutral-800 h-10 text-stone-400 font-medium text-sm">
         <div className="hidden md:flex items-center mr-20">
-          <Link to="/login">Log in</Link>
+          <Link to="/vite-clothes-store/login">Log in</Link>
           <div className="border-l border-gray-400 mx-4 h-6"></div>
-          <Link to="/create">Create Account</Link>
+          <Link to="/vite-clothes-store/create">Create Account</Link>
         </div>
         <button
           className="md:hidden ml-4"
@@ -39,7 +39,7 @@ const Header = () => {
         </button>
         <div className="flex items-center">
           <Link
-            to="/mylist"
+            to="/vite-clothes-store/mylist"
             className="border border-gold py-1 px-1 w-auto h-6 ml-2 flex items-center"
           >
             <svg
@@ -65,16 +65,16 @@ const Header = () => {
       {menuOpen && (
         <div className="fixed inset-0 z-50 flex">
           <div className="w-1/2 bg-black bg-opacity-95 py-12 space-y-4  text-white font-garmond p-4 transform translate-x-0 transition-transform duration-300 ease-in-out">
-            <Link to="/login" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b " onClick={closeMenu}>
+            <Link to="/vite-clothes-store/login" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b " onClick={closeMenu}>
               Log in
             </Link>
-            <Link to="/create" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b" onClick={closeMenu}>
+            <Link to="/vite-clothes-store/create" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b" onClick={closeMenu}>
               Create Account
             </Link>
-            <Link to="/about" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b" onClick={closeMenu}>
+            <Link to="/vite-clothes-store/about" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b" onClick={closeMenu}>
               ABOUT
             </Link>
-            <Link to="/contact" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b" onClick={closeMenu}>
+            <Link to="/vite-clothes-store/contact" className="block mb-2 hover:bg-teal-900 py-2 px-2 border-l border-b" onClick={closeMenu}>
               CONTACT
             </Link>
             <div className="relative group hover:bg-teal-900 py-2 px-2 border-l border-b">
@@ -97,16 +97,16 @@ const Header = () => {
               </button>
               <div className="hidden group-hover:block absolute z-10 text-emerald-950 font-roboto top-8 left-0 mt-2 p-2 bg-emerald-200 border border-gray-200 rounded-md shadow-md w-full">
                 <div className="space-y-2 text-sm flex flex-col ">
-                  <Link to="/jeans" onClick={closeMenu}>
+                  <Link to="/vite-clothes-store/jeans" onClick={closeMenu}>
                     JEANS
                   </Link>
-                  <Link to="/tshirts" onClick={closeMenu}>
+                  <Link to="/vite-clothes-store/tshirts" onClick={closeMenu}>
                     T-SHIRT
                   </Link>
-                  <Link to="/shoeses" onClick={closeMenu}>
+                  <Link to="/vite-clothes-store/shoeses" onClick={closeMenu}>
                     SHOESES
                   </Link>
-                  <Link to="/hats" onClick={closeMenu}>
+                  <Link to="/vite-clothes-store/hats" onClick={closeMenu}>
                     HATS
                   </Link>
                 </div>
@@ -124,7 +124,7 @@ const Header = () => {
       </nav>
 
       <nav className="text-emerald-900 bg-fuchsia-50 bg-opacity-50 p-4 px-20 flex items-center justify-between">
-        <Link to="/">
+        <Link to="/vite-clothes-store/">
           <div className="text-xl font-semibold font-playwrite">
             Mollyjpgger
             <span className="text-sm font-normal">
@@ -153,15 +153,15 @@ const Header = () => {
             </button>
             <div className="hidden group-hover:block absolute z-10 text-emerald-900 w-32 top-4 left-0 mt-2 p-2 bg-white border border-gray-200 rounded-md shadow-md">
               <div className="space-y-2 text-sm flex flex-col">
-                <Link to="/jeans">JEANS</Link>
-                <Link to="/tshirts">T-SHIRT</Link>
-                <Link to="/shoeses">SHOESES</Link>
-                <Link to="/hats">HATS</Link>
+                <Link to="/vite-clothes-store/jeans">JEANS</Link>
+                <Link to="/vite-clothes-store/tshirts">T-SHIRT</Link>
+                <Link to="/vite-clothes-store/shoeses">SHOESES</Link>
+                <Link to="/vite-clothes-store/hats">HATS</Link>
               </div>
             </div>
           </div>
-          <Link to="/about">ABOUT</Link>
-          <Link to="/contact">CONTACT</Link>
+          <Link to="/vite-clothes-store/about">ABOUT</Link>
+          <Link to="/vite-clothes-store/contact">CONTACT</Link>
         </div>
       </nav>
     </div>

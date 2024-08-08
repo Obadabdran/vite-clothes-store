@@ -23,7 +23,7 @@ const AboutSec = () => {
             <h1 className='text-zinc-400 font-roboto font-medium text-2xl'>About Us</h1>
            <span className='inline-block w-full text-3xl  font-medium font-cinzel text-cyan-700 mt-8 '>Mollyjogger Story</span>
             <h3 className='font-garmond mt-8 leading-7'>Mollyjogger™ is an authentic American heritage brand, based in the Ozark Mountains, celebrating the region’s unique history of outdoor recreation, sporting and folklore.</h3>
-            <Link to='/about'><button className='flex justify-start px-4 py-1 mt-4 w-36 border border-cyan-500 text-cyan-600'> Read Our Story</button></Link>
+            <Link to='/vite-clothes-store/about'><button className='flex justify-start px-4 py-1 mt-4 w-36 border border-cyan-500 text-cyan-600'> Read Our Story</button></Link>
         </div>
 
     </div>
