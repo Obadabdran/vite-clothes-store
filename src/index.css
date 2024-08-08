@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .toggle-switch::before {
+      @apply absolute h-5 w-5 bg-white rounded-full transition-transform duration-200 ease-in-out;
+      content: "";
+      left: 1px;
+      top: 1px;
+    }
+  
+    input:checked + .toggle-switch {
+      @apply bg-blue-500;
+    }
+  
+    input:checked + .toggle-switch::before {
+      @apply translate-x-5;
+    }
+  }
